@@ -1,0 +1,5 @@
+textToCell.sublime-macro
+matlab.sublime-build
+*.sublime-workspace
+monokaiC/
+*.cache/

@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Increment Selection",
+		"LaTeXTools",
+		"Markdown Table Formatter",
+		"MarkdownEditing",
+		"MarkdownLivePreview",
+		"MarkdownPreview",
+		"Matlab-Completions",
+		"MultiEditUtils",
+		"Package Control",
+		"Pandoc"
+	],
+	"repositories":
+	[
+		"https://github.com/tushortz/Matlab-Completions"
+	]
+}

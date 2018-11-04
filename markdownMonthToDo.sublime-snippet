@@ -1,0 +1,54 @@
+<snippet>
+  <content><![CDATA[
+### Monthly tasks
+
+#### Work
+- [ ] ${1:---work task---}
+
+#### Personal
+- [ ] ${2:---personal task---}
+
+#### Notes
+- ${3:---note---}
+
+#### Planning
+| day | event/task |
+|----:|:----------:|
+|   1 |    ...     |
+|   2 |    ...     |
+|   3 |    ...     |
+|   4 |    ...     |
+|   5 |    ...     |
+|   6 |    ...     |
+|   7 |    ...     |
+|   8 |    ...     |
+|   9 |    ...     |
+|  10 |    ...     |
+|  11 |    ...     |
+|  12 |    ...     |
+|  13 |    ...     |
+|  14 |    ...     |
+|  15 |    ...     |
+|  16 |    ...     |
+|  17 |    ...     |
+|  18 |    ...     |
+|  19 |    ...     |
+|  20 |    ...     |
+|  21 |    ...     |
+|  22 |    ...     |
+|  23 |    ...     |
+|  24 |    ...     |
+|  25 |    ...     |
+|  26 |    ...     |
+|  27 |    ...     |
+|  28 |    ...     |
+|  29 |    ...     |
+|  30 |    ...     |
+|  31 |    ...     |
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>mtodo</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.plain</scope>
+  <description>markdown monthly to-do list</description>
+</snippet>

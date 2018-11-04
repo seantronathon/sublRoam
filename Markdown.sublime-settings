@@ -1,0 +1,21 @@
+{
+  // "color_scheme": "Packages/MarkdownEditing/MarkdownEditor.tmTheme",
+  "color_scheme": "Packages/User/ME-MonokaiC.tmTheme",
+  "extensions":
+  [
+    "md",
+    "mdown"
+  ],
+
+  "tab_size":2,
+
+  //layout
+  "draw_centered":false,
+  "wrap_width":0,
+  "auto_complete_selector": "source,text",
+  "rulers":[90],
+
+  // line
+  "line_numbers":true,
+  "highlight_line":true,
+}

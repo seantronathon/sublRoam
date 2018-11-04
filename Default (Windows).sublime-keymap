@@ -1,0 +1,87 @@
+[
+  ///////////////////////
+  // switch build systems
+
+  // switch to Matlab
+  {"keys": ["ctrl+shift+alt+m"],
+        "command": "set_build_system",
+        "args": {
+            "file": "Packages/User/MATLAB.sublime-build"
+        } },
+
+  // switch to Python
+  {"keys": ["ctrl+shift+alt+p"],
+        "command": "set_build_system",
+        "args": {
+            "file": "Packages/Python/Python.sublime-build"
+        } },
+
+  // switch to LaTeX
+  {"keys": ["ctrl+shift+alt+l"],
+        "command": "set_build_system",
+        "args": {
+            "file": "Packages/LaTeXTools/LaTeX.sublime-build"
+        } },
+
+  ///////////////////////
+  // markdown related things
+  // launch the browser preview of a .md file
+  { "keys": ["alt+shift+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"gitlab"} },
+
+  // launch the pandoc .md->PDF converter
+  { "keys": ["alt+shift+p"], 
+    "command": "pandoc", 
+    "args": {
+      "transformation": {"scope": {"text.html":"html","text.html.markdown":"markdown"}, 
+      "pandoc-arguments":["-t","pdf"]}
+    } },
+
+
+  // show scope name (for coding snippets)
+  { "keys": ["ctrl+alt+shift+s"], "command": "show_scope_name" },
+
+  // tab and return keys don't do auto-anything unless it's visible:
+  // { "keys": ["tab"], "command": "insert", "args": {"characters": "\t"}, "context": 
+  //     [
+  //         { "key": "auto_complete_visible", "operator": "equal", "operand": false }
+  //     ] },
+
+  { "keys": ["return"], "command": "insert", "args": {"characters": "\r"}, "context": 
+      [
+          { "key": "auto_complete_visible", "operator": "equal", "operand": false }
+      ] },
+
+  // auto-complete only on return key, not tab
+  { "keys": ["tab"], "command": "insert", "args": {"characters": "\t"}, "context": 
+      [
+          { "key": "auto_complete_visible" }
+          ,{ "key": "has_next_field", "operator": "equal", "operand": false }
+      ] },
+  // tab goes to nex field if it's available (instead of tabbing)
+  { "keys": ["tab"], "command": "next_field", "context": 
+      [
+          { "key": "auto_complete_visible" },
+          { "key": "has_next_field", "operator": "equal", "operand": true }
+      ] },
+
+  // other custom shortcuts
+  { "keys": ["ctrl+alt+shift+n"], "command": "new_snippet"},
+
+  ///////////////////////
+  // MultiEditUtils
+  // // main keybinding, set the search type you're most comfortable with, default is Case+Word
+  { "keys": ["ctrl+alt+f", "ctrl+alt+f"],       "command": "multi_find_all", "args": {"case": true, "word": true}},
+  
+  // { "keys": ["ctrl+alt+f", "ctrl+c"],           "command": "multi_find_all", "args": {"case": false}},
+  // { "keys": ["ctrl+alt+f", "c"],                "command": "multi_find_all", "args": {"case": true}},
+  { "keys": ["ctrl+alt+f", "ctrl+alt+c"],           "command": "multi_find_all", "args": {"case": false, "word": true}},
+  // { "keys": ["ctrl+alt+f", "w"],                "command": "multi_find_all", "args": {"case": true, "word": true}},
+  { "keys": ["ctrl+alt+f", "ctrl+alt+g"],                "command": "multi_find_all", "args": {"case": true, "word": true, "ignore_comments": true}},
+
+  // // find all with regex search, additive(on top of current selection) or subtractive
+  // { "keys": ["ctrl+alt+f", "r"],                "command": "multi_find_all_regex"},
+  // { "keys": ["ctrl+alt+f", "ctrl+alt+r"],       "command": "multi_find_all_regex", "args": {"subtract": true}},
+  // { "keys": ["ctrl+alt+f", "ctrl+r"],           "command": "multi_find_all_regex", "args": {"case": false}},
+  // { "keys": ["ctrl+alt+f", "ctrl+alt+shift+r"], "command": "multi_find_all_regex", "args": {"subtract": true, "case": false}},
+  
+]
