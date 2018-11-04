@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+switch ${1:switchVar}
+  case ${2:case1}
+    ${3:body}
+  case ${4:case2}
+    ${5:body}
+end
+$0
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>switch</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.matlab</scope>
+
+  <description>my Matlab switch()</description>
+</snippet>

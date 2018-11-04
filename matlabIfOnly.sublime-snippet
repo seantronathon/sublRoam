@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+if ${1:condition}
+  ${2:body}
+end
+$0
+]]></content>
+  <tabTrigger>if</tabTrigger>
+  <scope>source.matlab</scope>
+  <description>my Matlab if only()</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+for ${1:loopArgs}
+  ${2:body}
+end
+$0
+]]></content>
+  <tabTrigger>for</tabTrigger>
+  <scope>source.matlab</scope>
+  <description>my Matlab full for()</description>
+
+</snippet>
