@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+### ${1:task/topic to} update:
+
+#### Short-term to-do
+- [ ] ${2:--task--}
+
+#### Long-term to-do
+- [ ] ${3:--task--}
+
+#### Personal/low-priority
+- [ ] ${4:--task--}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>plan</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.markdown.gfm</scope>
+  <description>markdown plan list</description>
+</snippet>
