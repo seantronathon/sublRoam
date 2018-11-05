@@ -14,6 +14,6 @@
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>todo</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.plain</scope>
+  <scope>text.html.markdown.gfm</scope>
   <description>markdown daily to-do list</description>
 </snippet>
