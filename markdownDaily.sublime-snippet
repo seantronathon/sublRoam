@@ -1,19 +1,16 @@
 <snippet>
   <content><![CDATA[
-### Daily tasks
+### Daily notes
 
 #### Work
-- [ ] ${1:---work task---}
+- ${1:---work note---}
 
 #### Personal
-- [ ] ${2:---personal task---}
-
-#### Notes
-1. ${3:---note---}
+- ${2:---personal note---}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>todo</tabTrigger>
+  <tabTrigger>daily</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html.markdown.gfm</scope>
-  <description>markdown daily to-do list</description>
+  <description>markdown daily notes</description>
 </snippet>
