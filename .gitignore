@@ -3,4 +3,4 @@ matlab.sublime-build
 *.sublime-workspace
 monokaiC/
 *.cache/
-*Control.last-run
+*.last-run
